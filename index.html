@@ -7,16 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio Celine</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <a href="#" class="logo"> <img src="logo.png" width="130"> </a>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#aboutme">About Me</a>
-            <a href="#experience">Experience</a>
+            <a href="#experiences">Experiences</a>
             <a href="#projects">Projects</a>
             <a href="#resume">Resume</a>
             <a href="#contact">Contact</a>
@@ -29,7 +32,7 @@
         </div>
     </header>
 
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-image">
             <img src="me.png" alt="">
         </div>
@@ -40,6 +43,123 @@
                 An Information Systems student eager to learn about information technology. Focused on
                 developing technical skills and ready to embark on a professional journey in IT.
             </p>
+        </div>
+    </section>
+
+    <section class="aboutme" id="aboutme">
+        <h2 class="heading">About <span>Me</span> </h2>
+
+        <div class="about-img">
+            <img src="about me.png" width="100">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Information System Student!</h3>
+            <p>Hi! Let me introduce myself, my name is Celine Auriel. People usually call me Celine. I am currently in
+                my 3rd semester of college. I study at the Sepuluh Nopember Institute of Technology. I majored in
+                information systems. This major is a major that I have been very interested in since I was in high
+                school. At that time, I was surrounded by people who were good at coding, so I was interested in
+                following in their footsteps. I have several experiences which I will explain here. So, come find out
+                about me here.</p>
+        </div>
+    </section>
+
+    <section class="experiences" id="experiences">
+        <div class="container">
+            <span class="experiences-subtitle">Internships, Competitions, & Committees</span>
+            <h2 class="experience-title">Experiences</h2>
+
+            <div class="experiences-container swiper">
+                <div class="swiper-wrapper">
+                    <article class="experiences-card swiper-slide">
+                        <img src="e1.jpg" width="100%" alt="" class="experiences-img">
+
+                        <div class="experiences-data">
+                            <h2 class="experiences-location">
+                                ttttttttttttttttttttt
+                            </h2>
+                            <h3 class="experiences-title">
+                                ooooooooooooooooooo
+                            </h3>
+                            <p class="experiences-desc">
+                                bbbbbbbbbbbbb
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="experiences-card swiper-slide">
+                        <img src="e1.jpg" width="100%" alt="" class="experiences-img">
+
+                        <div class="experiences-data">
+                            <h2 class="experiences-location">
+                                oooooooooooooooo
+                            </h2>
+                            <h3 class="experiences-title">
+                                oooooooooooooooooooooooooooo
+                            </h3>
+                            <p class="experiences-desc">
+                                bbbbbbbbbbbbbbbbbb
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="experiences-card swiper-slide">
+                        <img src="e1.jpg" width="100%" alt="" class="experiences-img">
+
+                        <div class="experiences-data">
+                            <h2 class="experiences-location">
+                                ppppppppppppppppppppp
+                            </h2>
+                            <h3 class="experiences-title">
+                                uuuuuuuuuuuuuuuuuuuuuuuuuuu
+                            </h3>
+                            <p class="experiences-desc">
+                                bbbbbbbbbbbbbbbb
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="experiences-card swiper-slide">
+                        <img src="e1.jpg" width="100%" alt="" class="experiences-img">
+
+                        <div class="experiences-data">
+                            <h2 class="experiences-location">
+                                hhhhhhhhhhhhhhhhhh
+                            </h2>
+                            <h3 class="experiences-title">
+                                hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                            </h3>
+                            <p class="experiences-desc">
+                                bbbbbbbbbbbbbbbbbbbbbb
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="experiences-card swiper-slide">
+                        <img src="e1.jpg" width="100%" alt="" class="experiences-img">
+
+                        <div class="experiences-data">
+                            <h2 class="experiences-location">
+                                jjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+                            </h2>
+                            <h3 class="experiences-title">
+                                uuuuuuuuuuuuuuuuuuuu
+                            </h3>
+                            <p class="experiences-desc">
+                                bbbbbbbbbbbbbbbbbbbbbbbb
+                        </div>
+                    </article>
+                </div>
+                <!-- Button Prev -->
+                <div class="swiper-button-prev">
+                    <img src="chevron-left-square-regular-24.png">
+                </div>
+                <!-- Button Next -->
+                <div class="swiper-button-next">
+                    <img src="chevron-right-square-regular-24.png">
+                </div>
+            </div>
         </div>
     </section>
 
