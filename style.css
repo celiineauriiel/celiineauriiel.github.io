@@ -5,9 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    border: none;
+    outline: none;
     font-family: 'Jost', sans-serif;
     font-family: 'Nunito', sans-serif;
   }
+
 
 .header {
   position: fixed;
@@ -20,6 +23,11 @@
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+}
+
+.scroll-header {
+  background-color: rgb(195, 195, 195);
+  box-shadow: 0 1px 4px hsla(228, 4%, 15%, .1);
 }
 
 .navbar a {
@@ -49,6 +57,12 @@
   z-index: 99;
   position: fixed;
   right: 35px;
+  cursor: pointer;
+}
+
+section {
+  min-height: 100vh;
+  padding: 0 10%;
 }
 
 .home {
@@ -100,4 +114,127 @@
   font-size: 11px;
   margin-top: 10px;
   margin-left: 50px;
+}
+
+span {
+  color: white;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(195, 195, 195);
+  padding-bottom: 6rem;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.about-img {
+  position: relative;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img img {
+  width: 70%;
+  border-radius: 50%;
+  border: .15rem solid white;
+}
+
+.about-img .circle-spin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0);
+  width: 77%;
+  height: 77%;
+  border-radius: 50%;
+  border-top: .15rem solid rgb(195, 195, 195);
+  border-bottom: .15rem solid rgb(195, 195, 195);
+  border-left: .15rem solid black;
+  border-right: .15rem solid black;
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-content h3 {
+  font-size: 2rem;
+}
+
+.about-content p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.experiences {
+  background-color: #ffffff;
+  padding-top: 6rem;
+}
+
+.experiences span{
+  color: #5d5d5d;
+}
+
+.experience-title {
+  padding-bottom: 0;
+}
+
+.experiences-container {
+  padding: 1rem 0 5rem;
+}
+
+.experiences-card {
+  width: 290px;
+  background-color: #ffffff;
+  padding: .5rem .5rem 1.5rem .5rem;
+  border-radius: 1rem;
+  margin: 65px auto;
+  transition: .4s; 
+}
+
+.experiences-card:hover {
+  box-shadow: 0 12px 16px hsla(228, 66%, 45%, .3);
+}
+
+.experiences-img {
+  border-radius: 1rem;
+  margin-bottom: 1rem
+  ;
+}
+
+.experiences-data {
+  padding: 0 1rem 0 .5rem;
+}
+
+.experiences-location {
+  font-size: 1rem;
+  margin-bottom: .25rem;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-next{
+  right: calc(50% - 3rem);
+  transform: translateX(-1800%) translateY(450%);
+}
+
+.swiper-button-prev {
+  left: calc(50% - 3rem);
+  transform: translateX(1800%) translateY(450%);
 }
