@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+
+body{
+    background: linear-gradient(rgb(208, 208, 208), rgb(138, 138, 138));
+    font-family: 'DM Sans', sans-serif;
+    background-attachment: fixed;
+}  
+
+.celineHeader{
+    text-align: center;
+    font-size: 35px;
+}
+
+.celineHeader img{
+    margin-top: 60px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.celineHeader h1{
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.celineHeader h2{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.celineHeader h3{
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: -50px;
+}
+
+.celineKotak{
+    width: 676px;
+    height: 56px;
+    background-color: white;
+    border-radius: 8px;
+    border: solid white 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+    text-decoration: none; /* hilangin tanda ungu pas di klik */
+    color: rgb(138, 138, 138);
+    margin-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.celineKotak:hover{
+    background-color: transparent;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.celineImgHover {
+    display: none;
+}
+
+.celineKotak:hover .celineImg{
+    background-color: transparent;
+    color: white;
+    display: none;
+}
+
+.celineKotak:hover .celineImgHover{
+    background-color: transparent;
+    color: white;
+    display: block;
+}
+
+.celineIcon{
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.celineIcon .celineImgGambar{
+    height: 50px;
+    width: 50px;
+    margin-top: -10px;
+    margin-left: -6px;
+    border-radius: 10px;
+}
+
+.celineShare{
+    margin-right: 8px;
+}
+
+.celineShare:hover{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(85, 85, 85);
+    opacity: 0.3;
+    transition-duration: 0.2s;
+}
+
+.celineShareAtas{
+    margin-left: 1020px;
+    margin-top: 40px;
+    margin-bottom: -60px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(239, 239, 239);
+}
+
+.celineShareAtas img{
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.celineShareAtas:hover{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(226, 226, 226);
+    opacity: 90;
+    transition-duration: 0.2s;
+}
